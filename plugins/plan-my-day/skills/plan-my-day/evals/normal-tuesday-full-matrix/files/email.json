@@ -1,0 +1,90 @@
+{
+  "source": "email",
+  "status": "ok",
+  "error": null,
+  "window_start": "2026-11-10T07:55:00-08:00",
+  "items": [
+    {
+      "from_id": null,
+      "from_email": "priya@northwind.example",
+      "due": "2026-11-19",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "PROD-412"
+      ],
+      "meta": {},
+      "source_id": "email:18c0a1",
+      "url": "https://mail.google.com/mail/u/0/#inbox/18c0a1",
+      "title": "Priya (email) re: Q3 churn numbers for QBR",
+      "from": "Priya Shah",
+      "my_role": "direct_message",
+      "last_activity": "2026-11-16T15:45:00-08:00",
+      "snippet": "Following up on Slack: need churn by segment for the QBR, PROD-412 has the spec."
+    },
+    {
+      "from_id": null,
+      "from_email": "sam@northwind.example",
+      "due": "2026-11-19",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {},
+      "source_id": "email:18c0b2",
+      "url": "https://mail.google.com/mail/u/0/#inbox/18c0b2",
+      "title": "Sam asks you to present 10 min of roadmap at Thursday's customer advisory board",
+      "from": "Sam Ortiz",
+      "my_role": "direct_message",
+      "last_activity": "2026-11-16T19:40:00-08:00",
+      "snippet": "Can you take 10 min at Thursday's CAB to walk through H1 roadmap? Need a yes and your slide by Wed EOD."
+    },
+    {
+      "from_id": null,
+      "from_email": "hannah@analyticsco.example",
+      "due": null,
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {},
+      "source_id": "email:18c0c3",
+      "url": "https://mail.google.com/mail/u/0/#inbox/18c0c3",
+      "title": "AnalyticsCo sales rep wants 15 minutes to demo their tool",
+      "from": "Hannah Brooks",
+      "my_role": "direct_message",
+      "last_activity": "2026-11-16T08:00:00-08:00",
+      "snippet": "Saw you're scaling product analytics. 15 min this week?"
+    },
+    {
+      "from_id": null,
+      "from_email": "taylor@northwind.example",
+      "due": null,
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {},
+      "source_id": "email:18c0d4",
+      "url": "https://mail.google.com/mail/u/0/#inbox/18c0d4",
+      "title": "Recruiting needs your interview feedback for candidate J. Park",
+      "from": "Taylor Reed",
+      "my_role": "direct_message",
+      "last_activity": "2026-11-14T12:00:00-08:00",
+      "snippet": "Reminder: please submit your scorecard for J. Park (Sr PM loop on Thu). Hiring committee meets Wed."
+    },
+    {
+      "from_id": null,
+      "from_email": "finops@northwind.example",
+      "due": null,
+      "awaiting_me": false,
+      "resolved": true,
+      "refs": [],
+      "meta": {},
+      "source_id": "email:18c0e5",
+      "url": "https://mail.google.com/mail/u/0/#inbox/18c0e5",
+      "title": "Finance asked for 2027 headcount plan",
+      "from": "Finance Ops",
+      "my_role": "direct_message",
+      "last_activity": "2026-11-13T09:00:00-08:00",
+      "snippet": "Thanks, got it."
+    }
+  ]
+}

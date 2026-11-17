@@ -1,0 +1,44 @@
+{
+  "name": "Your Name",
+  "timezone": "America/Los_Angeles",
+  "working_hours": {"start": "09:00", "end": "17:30"},
+  "lunch": {"start": "12:00", "end": "12:45"},
+  "time_format": "24h",
+  "lookback_days": 7,
+  "focus_block_minutes": 90,
+  "min_block_minutes": 30,
+  "aging_escalation_days": 3,
+
+  "email_provider": "google",
+  "calendar_provider": "google",
+
+  "identities": {
+    "slack_user_id": "U00000000",
+    "slack_display_name": "you",
+    "email": "you@example.com",
+    "atlassian_account_id": "",
+    "aha_user_email": ""
+  },
+
+  "vips": [
+    {"name": "Manager Name", "email": "manager@example.com", "slack_id": "U11111111", "why": "your manager"},
+    {"name": "Key Stakeholder", "email": "stakeholder@example.com", "slack_id": "", "why": "exec sponsor for your roadmap"}
+  ],
+
+  "sources": {
+    "slack": true,
+    "jira": true,
+    "confluence": true,
+    "aha": true,
+    "email": true,
+    "calendar": true
+  },
+
+  "ignore": {
+    "slack_channels": ["#random", "#alerts"],
+    "email_senders": ["noreply@", "notifications@"]
+  },
+
+  "fetcher_model": "sonnet",
+  "deliver": {"slack_dm": true}
+}

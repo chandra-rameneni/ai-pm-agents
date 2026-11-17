@@ -1,0 +1,16 @@
+# Plan My Day keeps personal data in ~/.plan-my-day (outside the repo).
+# These guard against copying it in by accident.
+config.json
+!plugins/*/examples/**/config.json
+!plugins/*/skills/*/evals/**/config.json
+seen.json
+!plugins/*/examples/**/seen.json
+!plugins/*/skills/*/evals/**/seen.json
+last_plan.json
+usage.jsonl
+runs.jsonl
+*-workspace/
+.DS_Store
+__pycache__/
+*.pyc
+.env

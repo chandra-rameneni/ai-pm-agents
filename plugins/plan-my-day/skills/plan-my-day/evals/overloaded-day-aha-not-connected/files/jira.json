@@ -1,0 +1,117 @@
+{
+  "source": "jira",
+  "status": "ok",
+  "error": null,
+  "window_start": "2026-11-10T07:55:00-08:00",
+  "items": [
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": "2026-11-19",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "PROD-412"
+      ],
+      "meta": {
+        "priority": "High",
+        "status": "To Do",
+        "epic": "PROD-300"
+      },
+      "source_id": "jira:PROD-412",
+      "url": "https://northwind.atlassian.net/browse/PROD-412",
+      "title": "Build Q3 churn-by-segment cut for QBR",
+      "from": "Priya Shah",
+      "my_role": "assignee",
+      "last_activity": "2026-11-16T15:50:00-08:00",
+      "snippet": "Assigned to you. Due Thu. Needed for QBR deck."
+    },
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": null,
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "PROD-430",
+        "PROD-123"
+      ],
+      "meta": {
+        "priority": "High",
+        "status": "Blocked",
+        "epic": "PROD-400"
+      },
+      "source_id": "jira:PROD-430",
+      "url": "https://northwind.atlassian.net/browse/PROD-430",
+      "title": "QA blocked on Bulk export until you confirm acceptance criteria",
+      "from": "Lin Wu",
+      "my_role": "assignee",
+      "last_activity": "2026-11-16T13:20:00-08:00",
+      "snippet": "Blocked: need PM to confirm AC for >1M row exports (async email vs. sync download)."
+    },
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": "2026-12-05",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "PROD-431"
+      ],
+      "meta": {
+        "priority": "Medium",
+        "status": "To Do",
+        "epic": "PROD-400"
+      },
+      "source_id": "jira:PROD-431",
+      "url": "https://northwind.atlassian.net/browse/PROD-431",
+      "title": "Decide CSV column ordering for bulk export",
+      "from": "Lin Wu",
+      "my_role": "assignee",
+      "last_activity": "2026-11-13T10:00:00-08:00",
+      "snippet": "Assigned to you. Column order spec needed before GA."
+    },
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": null,
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "PROD-377"
+      ],
+      "meta": {
+        "priority": "Medium",
+        "status": "In Progress",
+        "reporter": "you"
+      },
+      "source_id": "jira:PROD-377",
+      "url": "https://northwind.atlassian.net/browse/PROD-377",
+      "title": "Eng asks whether to descope dark-mode toggle from Settings revamp",
+      "from": "Omar Haddad",
+      "my_role": "reply_to_my_thread",
+      "last_activity": "2026-11-12T14:10:00-08:00",
+      "snippet": "Should we descope the dark-mode toggle to hit the Dec 1 date? Need a call from product."
+    },
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": null,
+      "awaiting_me": false,
+      "resolved": true,
+      "refs": [
+        "PROD-399"
+      ],
+      "meta": {
+        "status": "Done"
+      },
+      "source_id": "jira:PROD-399",
+      "url": "https://northwind.atlassian.net/browse/PROD-399",
+      "title": "Update pricing page copy",
+      "from": "Kim Ng",
+      "my_role": "assignee",
+      "last_activity": "2026-11-13T09:00:00-08:00",
+      "snippet": "Done."
+    }
+  ]
+}

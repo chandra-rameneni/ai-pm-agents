@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: overloaded-day-aha-not-connected
+expected_outcome: |
+  Aha! is enabled but has no data, so the plan says Aha! is not connected. Many urgent and important asks: Do stays to about six items and the rest go to Schedule with a note about the time pressure.
+context:
+  scaffold_script: place-files.sh

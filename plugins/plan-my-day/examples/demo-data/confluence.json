@@ -1,0 +1,45 @@
+{
+  "source": "confluence",
+  "status": "ok",
+  "error": null,
+  "window_start": "2026-11-10T07:55:00-08:00",
+  "items": [
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": null,
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {
+        "space": "PM",
+        "comment_count_in_window": 3
+      },
+      "source_id": "confluence:98765",
+      "url": "https://northwind.atlassian.net/wiki/spaces/PM/pages/98765",
+      "title": "Legal left 3 comments on your usage-based billing PRD",
+      "from": "Morgan Fox",
+      "my_role": "reply_to_my_thread",
+      "last_activity": "2026-11-16T16:30:00-08:00",
+      "snippet": "Legal: metering language in \u00a74 implies a usage guarantee; please revise or add disclaimer."
+    },
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": "2026-11-21",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {
+        "space": "DOCS"
+      },
+      "source_id": "confluence:99001",
+      "url": "https://northwind.atlassian.net/wiki/spaces/DOCS/pages/99001",
+      "title": "Tech writer asks you to verify the Q4 release-notes feature list",
+      "from": "Avery Stone",
+      "my_role": "mentioned",
+      "last_activity": "2026-11-16T11:00:00-08:00",
+      "snippet": "@alex please verify the feature list in Q4 release notes by Fri."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "source": "slack",
+  "status": "ok",
+  "error": null,
+  "window_start": "2026-11-10T07:55:00-08:00",
+  "items": [
+    {
+      "from_id": "U0PRIYA",
+      "from_email": null,
+      "due": "2026-11-19",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "PROD-412"
+      ],
+      "meta": {
+        "channel": "#metrics"
+      },
+      "source_id": "slack:C0METRICS:1731798120.000100",
+      "url": "https://northwind.slack.com/archives/C0METRICS/p1731798120000100",
+      "title": "Priya needs the Q3 churn cut for Thursday's QBR deck",
+      "from": "Priya Shah",
+      "my_role": "mentioned",
+      "last_activity": "2026-11-16T15:42:00-08:00",
+      "snippet": "@alex can you drop the Q3 churn-by-segment cut in here before Thu? It's going in the QBR deck (PROD-412)"
+    },
+    {
+      "from_id": "U0DANA",
+      "from_email": null,
+      "due": "2026-11-18",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "https://northwind.atlassian.net/wiki/spaces/PM/pages/98765"
+      ],
+      "meta": {
+        "channel": "DM"
+      },
+      "source_id": "slack:D0DANA:1731806000.000200",
+      "url": "https://northwind.slack.com/archives/D0DANA/p1731806000000200",
+      "title": "Dana wants the usage-based billing 2-pager before tomorrow's 1:1",
+      "from": "Dana Lee",
+      "my_role": "direct_message",
+      "last_activity": "2026-11-16T17:13:00-08:00",
+      "snippet": "Can you send me the 2-pager version of the usage-based billing PRD before our 1:1 tomorrow? Want to pre-wire Sam."
+    },
+    {
+      "from_id": "U0MARCO",
+      "from_email": null,
+      "due": "2026-11-20",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {
+        "channel": "#design",
+        "reply_count": 4
+      },
+      "source_id": "slack:C0DESIGN:1731520000.000300",
+      "url": "https://northwind.slack.com/archives/C0DESIGN/p1731520000000300",
+      "title": "Marco posted v3 onboarding mockups; needs your pick by Friday",
+      "from": "Marco Bianchi",
+      "my_role": "reply_to_my_thread",
+      "last_activity": "2026-11-15T11:05:00-08:00",
+      "snippet": "Replying to your thread: v3 mockups are up (A: checklist, B: guided tour). Need your pick by Fri so eng can start."
+    },
+    {
+      "from_id": "U0RILEY",
+      "from_email": null,
+      "due": null,
+      "awaiting_me": false,
+      "resolved": false,
+      "refs": [],
+      "meta": {
+        "channel": "#general"
+      },
+      "source_id": "slack:C0GENERAL:1731700000.000400",
+      "url": "https://northwind.slack.com/archives/C0GENERAL/p1731700000000400",
+      "title": "Thanks in #general for your roadmap demo",
+      "from": "Riley Chen",
+      "my_role": "mentioned",
+      "last_activity": "2026-11-15T16:20:00-08:00",
+      "snippet": "Huge thanks @alex for the roadmap demo yesterday \ud83d\ude4c"
+    },
+    {
+      "from_id": "U0JORDAN",
+      "from_email": null,
+      "due": null,
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "SUP-88"
+      ],
+      "meta": {
+        "channel": "#support-escalations"
+      },
+      "source_id": "slack:C0SUPPORT:1731809000.000500",
+      "url": "https://northwind.slack.com/archives/C0SUPPORT/p1731809000000500",
+      "title": "Support needs PM call on Acme SSO login escalation (SUP-88)",
+      "from": "Jordan Kim",
+      "my_role": "mentioned",
+      "last_activity": "2026-11-16T18:03:00-08:00",
+      "snippet": "@alex Acme (enterprise, renews Dec) can't log in via SSO since Sunday. Eng says fix is 2 days. Can PM confirm P1 so we can pull someone off sprint?"
+    },
+    {
+      "from_id": "U0KIM",
+      "from_email": null,
+      "due": null,
+      "awaiting_me": false,
+      "resolved": true,
+      "refs": [],
+      "meta": {
+        "channel": "#pm"
+      },
+      "source_id": "slack:C0PM:1731600000.000600",
+      "url": "https://northwind.slack.com/archives/C0PM/p1731600000000600",
+      "title": "Kim asked for the roadmap slide",
+      "from": "Kim Ng",
+      "my_role": "mentioned",
+      "last_activity": "2026-11-14T10:00:00-08:00",
+      "snippet": "@alex do you have the latest roadmap slide?"
+    },
+    {
+      "from_id": "U0DEVON",
+      "from_email": null,
+      "due": null,
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {
+        "channel": "#eng-platform"
+      },
+      "source_id": "slack:C0PLATFORM:1731750000.000700",
+      "url": "https://northwind.slack.com/archives/C0PLATFORM/p1731750000000700",
+      "title": "Platform team asks product to weigh in on log-retention defaults",
+      "from": "Devon Park",
+      "my_role": "mentioned",
+      "last_activity": "2026-11-16T09:30:00-08:00",
+      "snippet": "Anyone from product want to weigh in on 30 vs 90 day log retention defaults? cc @alex"
+    }
+  ]
+}

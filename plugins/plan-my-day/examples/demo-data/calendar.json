@@ -1,0 +1,138 @@
+{
+  "source": "calendar",
+  "status": "ok",
+  "error": null,
+  "window_start": "2026-11-10T07:55:00-08:00",
+  "events": [
+    {
+      "id": "ev1",
+      "title": "Standup",
+      "start": "2026-11-17T09:00:00-08:00",
+      "end": "2026-11-17T09:15:00-08:00",
+      "busy": true,
+      "my_response": "accepted",
+      "organizer_is_me": false,
+      "attendee_count": 8,
+      "url": "https://calendar.google.com/calendar/event?eid=ev1",
+      "needs_prep": false,
+      "is_pmd_block": false
+    },
+    {
+      "id": "ev2",
+      "title": "Roadmap review with Eng leads (you present)",
+      "start": "2026-11-17T10:00:00-08:00",
+      "end": "2026-11-17T11:00:00-08:00",
+      "busy": true,
+      "my_response": "accepted",
+      "organizer_is_me": true,
+      "attendee_count": 5,
+      "url": "https://calendar.google.com/calendar/event?eid=ev2",
+      "needs_prep": true,
+      "is_pmd_block": false
+    },
+    {
+      "id": "ev3",
+      "title": "Design sync",
+      "start": "2026-11-17T13:00:00-08:00",
+      "end": "2026-11-17T13:30:00-08:00",
+      "busy": true,
+      "my_response": "accepted",
+      "organizer_is_me": false,
+      "attendee_count": 5,
+      "url": "https://calendar.google.com/calendar/event?eid=ev3",
+      "needs_prep": false,
+      "is_pmd_block": false
+    },
+    {
+      "id": "ev4",
+      "title": "Customer call: Acme (SSO escalation)",
+      "start": "2026-11-17T15:00:00-08:00",
+      "end": "2026-11-17T16:00:00-08:00",
+      "busy": true,
+      "my_response": "accepted",
+      "organizer_is_me": false,
+      "attendee_count": 5,
+      "url": "https://calendar.google.com/calendar/event?eid=ev4",
+      "needs_prep": true,
+      "is_pmd_block": false
+    },
+    {
+      "id": "ev5",
+      "title": "Hiring debrief",
+      "start": "2026-11-17T16:30:00-08:00",
+      "end": "2026-11-17T17:00:00-08:00",
+      "busy": true,
+      "my_response": "tentative",
+      "organizer_is_me": false,
+      "attendee_count": 5,
+      "url": "https://calendar.google.com/calendar/event?eid=ev5",
+      "needs_prep": false,
+      "is_pmd_block": false
+    },
+    {
+      "id": "ev6",
+      "title": "Optional: Lunch & learn",
+      "start": "2026-11-17T12:00:00-08:00",
+      "end": "2026-11-17T12:45:00-08:00",
+      "busy": false,
+      "my_response": "accepted",
+      "organizer_is_me": false,
+      "attendee_count": 5,
+      "url": "https://calendar.google.com/calendar/event?eid=ev6",
+      "needs_prep": false,
+      "is_pmd_block": false
+    }
+  ],
+  "items": [
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": "2026-11-17",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {},
+      "source_id": "calendar:ev2",
+      "url": "https://calendar.google.com/calendar/event?eid=ev2",
+      "title": "Prep for 10:00 roadmap review (you present)",
+      "from": "you",
+      "my_role": "invitee",
+      "last_activity": "2026-11-15T09:00:00-08:00",
+      "snippet": "Agenda: H1 sequencing, bulk export status, Enterprise tier."
+    },
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": "2026-11-17",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "SUP-88"
+      ],
+      "meta": {},
+      "source_id": "calendar:ev4",
+      "url": "https://calendar.google.com/calendar/event?eid=ev4",
+      "title": "Prep for 15:00 Acme customer call (SSO escalation)",
+      "from": "Jordan Kim",
+      "my_role": "invitee",
+      "last_activity": "2026-11-16T18:10:00-08:00",
+      "snippet": "Jordan added you: Acme SSO outage, renewal in Dec."
+    },
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": "2026-11-18",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [],
+      "meta": {},
+      "source_id": "calendar:ev9",
+      "url": "https://calendar.google.com/calendar/event?eid=ev9",
+      "title": "Unanswered invite: Pricing council, Wed 11:00",
+      "from": "Finance Ops",
+      "my_role": "invitee",
+      "last_activity": "2026-11-16T12:00:00-08:00",
+      "snippet": "Pricing council: usage-based billing go/no-go."
+    }
+  ]
+}

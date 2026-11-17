@@ -1,0 +1,10 @@
+{
+  "name": "plan-my-day",
+  "version": "0.1.0",
+  "description": "Plans your workday: parallel fetchers pull everything that needs you from Slack, Jira, Confluence, Aha!, Gmail/Outlook and Google/Outlook Calendar, then sort it into an Eisenhower matrix with proposed focus blocks, delivered as a Slack DM.",
+  "author": {"name": "Chandra Rameneni", "url": "https://github.com/chandra-rameneni"},
+  "homepage": "https://github.com/chandra-rameneni/ai-pm-agents/tree/main/plugins/plan-my-day",
+  "repository": "https://github.com/chandra-rameneni/ai-pm-agents",
+  "license": "MIT",
+  "keywords": ["productivity", "planning", "eisenhower", "slack", "jira", "confluence", "aha", "gmail", "outlook", "product-management"]
+}

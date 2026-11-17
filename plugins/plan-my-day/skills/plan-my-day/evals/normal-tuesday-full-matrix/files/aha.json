@@ -1,0 +1,68 @@
+{
+  "source": "aha",
+  "status": "ok",
+  "error": null,
+  "window_start": "2026-11-10T07:55:00-08:00",
+  "items": [
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": "2026-12-01",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "PROD-123",
+        "PROD-430"
+      ],
+      "meta": {
+        "record_type": "feature",
+        "release": "2026.12"
+      },
+      "source_id": "aha:PROD-123",
+      "url": "https://northwind.aha.io/features/PROD-123",
+      "title": "Bulk export feature: release Dec 1, integrated with PROD-430",
+      "from": "Aha!",
+      "my_role": "assignee",
+      "last_activity": "2026-11-16T13:25:00-08:00",
+      "snippet": "Status: In development. Linked Jira PROD-430 is Blocked."
+    },
+    {
+      "from_id": null,
+      "from_email": "sam@northwind.example",
+      "due": "2026-12-01",
+      "awaiting_me": true,
+      "resolved": false,
+      "refs": [
+        "PROD-S-7"
+      ],
+      "meta": {
+        "record_type": "initiative"
+      },
+      "source_id": "aha:PROD-S-7",
+      "url": "https://northwind.aha.io/strategic_initiatives/PROD-S-7",
+      "title": "Sam needs your sizing for the 'Enterprise tier 2027' initiative by Dec 1",
+      "from": "Sam Ortiz",
+      "my_role": "mentioned",
+      "last_activity": "2026-11-16T10:10:00-08:00",
+      "snippet": "@Alex need your t-shirt sizing + key risks for Enterprise tier before the Dec 1 planning offsite."
+    },
+    {
+      "from_id": null,
+      "from_email": null,
+      "due": null,
+      "awaiting_me": false,
+      "resolved": false,
+      "refs": [],
+      "meta": {
+        "record_type": "idea_category"
+      },
+      "source_id": "aha:ideas:integrations",
+      "url": "https://northwind.aha.io/ideas?category=integrations",
+      "title": "6 new votes and 2 comments on Integrations ideas (Salesforce sync)",
+      "from": "Ideas portal",
+      "my_role": "assignee",
+      "last_activity": "2026-11-16T20:00:00-08:00",
+      "snippet": "Salesforce two-way sync now has 41 votes."
+    }
+  ]
+}

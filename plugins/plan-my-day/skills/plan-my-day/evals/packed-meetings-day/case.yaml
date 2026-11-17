@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: packed-meetings-day
+expected_outcome: |
+  Only two short gaps today (15:00-15:45 and 17:00-17:30). Blocks go only there, nothing overlaps a meeting, and the plan is honest that most Schedule work won't fit today.
+context:
+  scaffold_script: place-files.sh

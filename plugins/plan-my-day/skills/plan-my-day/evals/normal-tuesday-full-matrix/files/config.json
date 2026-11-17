@@ -1,0 +1,50 @@
+{
+  "name": "Alex Rivera",
+  "timezone": "America/Los_Angeles",
+  "working_hours": {
+    "start": "09:00",
+    "end": "17:30"
+  },
+  "lunch": {
+    "start": "12:00",
+    "end": "12:45"
+  },
+  "time_format": "24h",
+  "lookback_days": 7,
+  "focus_block_minutes": 90,
+  "min_block_minutes": 30,
+  "aging_escalation_days": 3,
+  "email_provider": "google",
+  "calendar_provider": "google",
+  "identities": {
+    "slack_user_id": "U0ALEX",
+    "slack_display_name": "alex",
+    "email": "alex@northwind.example"
+  },
+  "vips": [
+    {
+      "name": "Dana Lee",
+      "email": "dana@northwind.example",
+      "slack_id": "U0DANA",
+      "why": "your manager"
+    },
+    {
+      "name": "Sam Ortiz",
+      "email": "sam@northwind.example",
+      "slack_id": "U0SAM",
+      "why": "VP Sales, exec sponsor for the 2027 roadmap"
+    }
+  ],
+  "sources": {
+    "slack": true,
+    "jira": true,
+    "confluence": true,
+    "aha": true,
+    "email": true,
+    "calendar": true
+  },
+  "fetcher_model": "sonnet",
+  "deliver": {
+    "slack_dm": true
+  }
+}

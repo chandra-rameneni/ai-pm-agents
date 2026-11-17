@@ -1,0 +1,34 @@
+{
+  "items": {
+    "pmd-prod377aa": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-16",
+      "times_shown": 3,
+      "last_quadrant": "schedule",
+      "aliases": [
+        "jira:PROD-377"
+      ],
+      "title": "Eng asks whether to descope dark-mode toggle"
+    },
+    "pmd-recruit01": {
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-16",
+      "times_shown": 2,
+      "last_quadrant": "delegate",
+      "aliases": [
+        "email:18c0d4"
+      ],
+      "title": "Interview feedback for J. Park"
+    },
+    "pmd-finance01": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
+      "times_shown": 3,
+      "last_quadrant": "do",
+      "aliases": [
+        "email:18c0e5"
+      ],
+      "title": "Finance asked for 2027 headcount plan"
+    }
+  }
+}

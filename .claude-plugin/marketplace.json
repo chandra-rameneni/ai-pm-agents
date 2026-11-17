@@ -1,0 +1,16 @@
+{
+  "name": "ai-pm-agents",
+  "owner": {"name": "Chandra Rameneni", "url": "https://github.com/chandra-rameneni"},
+  "metadata": {
+    "description": "Day-to-day agent sidekicks for product managers, packaged as Claude Code plugins."
+  },
+  "plugins": [
+    {
+      "name": "plan-my-day",
+      "source": "./plugins/plan-my-day",
+      "description": "Eisenhower-matrix day plan from Slack, Jira, Confluence, Aha!, email and calendar, delivered as a Slack DM with proposed focus blocks.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}

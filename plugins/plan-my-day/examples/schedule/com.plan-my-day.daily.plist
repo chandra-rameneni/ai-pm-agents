@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- macOS: runs Plan My Day at 08:00 Mon–Fri.
+     1. Replace /PATH/TO/ai-pm-agents and the PATH entry with your own paths.
+     2. cp this file ~/Library/LaunchAgents/
+     3. launchctl load ~/Library/LaunchAgents/com.plan-my-day.daily.plist -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.plan-my-day.daily</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/PATH/TO/ai-pm-agents/plugins/plan-my-day/scripts/run-daily.sh</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/Users/YOU/.local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+    <key>PMD_ALLOWED_TOOLS</key>
+    <string>Agent ToolSearch Read Write Edit Glob Grep Bash(python3:*) Bash(cp:*) Bash(mkdir:*) mcp__claude_ai_Slack mcp__claude_ai_Atlassian mcp__claude_ai_Gmail mcp__claude_ai_Google_Calendar</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>/tmp/plan-my-day.out</string>
+  <key>StandardErrorPath</key><string>/tmp/plan-my-day.err</string>
+</dict>
+</plist>
